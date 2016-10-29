@@ -18,6 +18,9 @@ import UIKit
 import Clarifai
 import SnapKit
 
+let clarifaiAppID = ""
+let clarifaiAppSecret = ""
+
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var forwardButton: UIButton!
@@ -161,7 +164,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func recognize(image: UIImage) {
         
-        clarifaiApp = ClarifaiApp(appID: "ZeNpMb4xyF6WavVNg-ccHjNPeF9xUkf5QU90cMpY", appSecret: "E06ldmdgkCS-O2Eb6bYu7MAoSk2EvYGg28biaowt")
+        clarifaiApp = ClarifaiApp(appID: clarifaiAppID, appSecret: clarifaiAppSecret)
         
         clarifaiApp.getModelByName("general-v1.3") { (model, error) in
             let clarifaiImage = ClarifaiImage(image: image)
