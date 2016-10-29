@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Clarifai (2.0.2):
+    - AFNetworking (~> 2.0)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - Clarifai
+  - SnapKit (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Clarifai: 3eb8ff03d581887c3e60eb797658ebd7efea6e75
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: 707bf8b6d7bc9933ecd58a6ae5adcce514e0f3c3
+
+COCOAPODS: 1.0.1

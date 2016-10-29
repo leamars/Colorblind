@@ -1,0 +1,6 @@
+framework module Pods_Colorblind {
+  umbrella header "Pods-Colorblind-umbrella.h"
+
+  export *
+  module * { export * }
+}
