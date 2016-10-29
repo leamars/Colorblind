@@ -83,7 +83,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
         activityIndicator.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
-        
+    
     }
     
     func addColorCircles(forOriginalRgbs areOriginal: Bool, rgbs: [RGB], fadeIn: Bool) {
