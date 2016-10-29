@@ -14,7 +14,7 @@ It supports 8 different kinds of colorblindness:
 * Achromatomaly
 
 # Examples:
-![Example 1](example1.png =250x)
+<img src="example1.png" alt="Drawing" style="width: 200px;"/>
 ![Example 2](example2.png =250x)
 
 # How to Use:
