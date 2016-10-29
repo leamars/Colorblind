@@ -13,6 +13,17 @@ It supports 8 different kinds of colorblindness:
 * Achromatopsia
 * Achromatomaly
 
+# Examples:
+![Example 1](example1.png)
+![Example 2](example2.png)
+
+# How to Use:
+In ViewController.swift define your appId and secret for these variables (line 21, 22):
+* clarifaiAppID
+* clarifaiAppSecret
+
+Then run the app and enjoy (:
+
 # Acknowledgements:
 * The colorblind color approximations are only that - approiximations, and adapted from: http://web.archive.org/web/20081014161121/http://www.colorjack.com/labs/colormatrix/
 
