@@ -14,8 +14,8 @@ It supports 8 different kinds of colorblindness:
 * Achromatomaly
 
 # Examples:
-<img src="example1.png" alt="Example1" width="200" height="400"/>
-![Example 2](example2.png =250x)
+<img src="example1.png" alt="Example1" width="248" height="440"/>
+<img src="example2.png" alt="Example2" width="248" height="440"/>
 
 # How to Use:
 In ViewController.swift define your appId and secret for these variables (line 21, 22):
